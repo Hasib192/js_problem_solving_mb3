@@ -111,3 +111,14 @@
 10 * 9 = 90
 10 * 10 = 100
  */
+
+for (let i = 1; i <= 10; i++) {
+  mutliplicationTable(i);
+  console.log("\n");
+}
+
+function mutliplicationTable(n) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${n} * ${i} = ${n * i}`);
+  }
+}
