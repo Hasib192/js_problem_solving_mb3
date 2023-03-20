@@ -3,5 +3,13 @@
 // Input: 1235231
 
 /* Expected output
-Sum:  19
+Sum:  17
  */
+
+let str = "1235231";
+
+let arr = str.split("").map((item) => parseInt(item, 10));
+
+let result = arr.reduce((current, sum) => (sum += current));
+
+console.log(result);
